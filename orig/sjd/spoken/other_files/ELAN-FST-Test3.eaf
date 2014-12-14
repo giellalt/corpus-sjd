@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2014-12-12T10:24:22+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2014-12-14T14:03:08+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:4b00de82-54c2-4745-98cf-467f76bf69e6</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">76</PROPERTY>
@@ -174,174 +174,31 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@TEST" PARTICIPANT="TEST" TIER_ID="pos@TEST">
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a41">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a42">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a43">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a44">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a45">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a46">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a47">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a48">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a49">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a50">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a51">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a52">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a53">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a54">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a55">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a56">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a57">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a58">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-    </TIER>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default" TIME_ALIGNABLE="true"/>
+    <TIER LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@TEST" PARTICIPANT="TEST" TIER_ID="pos@TEST"/>
+    <TIER LINGUISTIC_TYPE_REF="lemmaT" PARENT_REF="word@TEST" PARTICIPANT="TEST" TIER_ID="lemma@TEST"/>
+    <TIER LINGUISTIC_TYPE_REF="morphT" PARENT_REF="word@TEST" PARTICIPANT="TEST" TIER_ID="morph@TEST"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-rusT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="pos" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="posT" TIME_ALIGNABLE="false"/>
-    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lemmaT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morphT" TIME_ALIGNABLE="false"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="pos">
-        <DESCRIPTION LANG_REF="und">part of speech tags (Giellatekno)</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="unclear" LANG_REF="und">(??)</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="non-speech" LANG_REF="und">(NO)</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="adjective" LANG_REF="und">A</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid3">
-            <CVE_VALUE DESCRIPTION="abbreviation" LANG_REF="und">ABBR</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid4">
-            <CVE_VALUE DESCRIPTION="acronym" LANG_REF="und">ACR</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid5">
-            <CVE_VALUE DESCRIPTION="adverb" LANG_REF="und">Adv</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid6">
-            <CVE_VALUE DESCRIPTION="clause boundary" LANG_REF="und">CLB</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid7">
-            <CVE_VALUE DESCRIPTION="coordinator" LANG_REF="und">Cc</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid8">
-            <CVE_VALUE DESCRIPTION="subordinator" LANG_REF="und">Cs</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid9">
-            <CVE_VALUE DESCRIPTION="determiner" LANG_REF="und">Det</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid10">
-            <CVE_VALUE DESCRIPTION="interjection" LANG_REF="und">Interj</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid11">
-            <CVE_VALUE DESCRIPTION="noun" LANG_REF="und">N</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid12">
-            <CVE_VALUE DESCRIPTION="numeral" LANG_REF="und">Num</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid13">
-            <CVE_VALUE DESCRIPTION="punctuation (other then clause boundaries)" LANG_REF="und">PUNCT</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid14">
-            <CVE_VALUE DESCRIPTION="particle" LANG_REF="und">Pcle</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid15">
-            <CVE_VALUE DESCRIPTION="postposition" LANG_REF="und">Po</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid16">
-            <CVE_VALUE DESCRIPTION="preposition" LANG_REF="und">Pr</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid17">
-            <CVE_VALUE DESCRIPTION="pronoun" LANG_REF="und">Pro</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid18">
-            <CVE_VALUE DESCRIPTION="proper noun" LANG_REF="und">Prop</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid20">
-            <CVE_VALUE DESCRIPTION="concerning units above sentences, like paragraphs" LANG_REF="und">TEXT</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid19">
-            <CVE_VALUE DESCRIPTION="verb" LANG_REF="und">V</CVE_VALUE>
-        </CV_ENTRY_ML>
+    <CONTROLLED_VOCABULARY CV_ID="pos" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="lg" DESCRIPTION="language">
+        <CV_ENTRY DESCRIPTION="German">deu</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Norwegian">nob</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="English">eng</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Russian">rus</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Swedish">swe</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Kildin Saami">sjd</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Ter Saami">sjt</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Pite Saami">sje</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Lule Saami">smj</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="North Saami">sme</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="Komi-Zyrian">kpv</CV_ENTRY>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>
